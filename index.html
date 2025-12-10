@@ -1,9 +1,214 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Izalkuntul — Chaos Engineer & Backend Shaman. I write backend spells in Go, whisper to databases, and occasionally commit at 3AM."
+    />
+    <title>Izalkuntul | Chaos Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <p>Hello, World!</p>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="nav-left">
+          <div class="avatar">IZ</div>
+          <div class="nav-info">
+            <div class="handle">hardzal</div>
+            <div class="name">Izalkuntul</div>
+          </div>
+        </div>
+        <div class="nav-right">
+          <a href="https://github.com/hardzal" target="_blank" rel="noreferrer" class="nav-btn nav-btn-outline">GitHub</a>
+          <a href="https://hardzal.github.io" target="_blank" rel="noreferrer" class="nav-btn nav-btn-gradient">Site</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-text animate-slide-in">
+          <h1 class="glitch" data-text="Chaos Engineer & Backend Shaman">
+            Chaos Engineer & Backend Shaman
+          </h1>
+          <p class="hero-bio">
+            I write backend spells in Go, whisper to databases, and occasionally commit at 3AM. This site is chaos — proceed with popcorn.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-chaos">Chaos Projects</a>
+            <a href="#contact" class="btn btn-outline">Summon Me</a>
+          </div>
+
+          <div class="hero-meta">
+            <span>📍 Cengkareng · Jakarta Barat</span>
+            <span>·</span>
+            <span>🧪 Night commits: frequent</span>
+          </div>
+        </div>
+
+        <div class="hero-stats animate-fade-in">
+          <div class="stats-label">Quick Stats</div>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-value">54+</div>
+              <div class="stat-label">Public repos</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value">—</div>
+              <div class="stat-label">Collabs (work in progress)</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value">Go, PHP</div>
+              <div class="stat-label">Fav stack</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value">3AM</div>
+              <div class="stat-label">Peak commit hour</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="section-header">
+          <h2>Chaos Projects — fork at your own risk</h2>
+          <span class="section-subtitle">curated by: Izal</span>
+        </div>
+
+        <div class="projects-grid">
+          <a href="https://github.com/hardzal/chat" target="_blank" rel="noreferrer" class="project-card">
+            <div class="project-header">
+              <div class="project-title">Project: WhisperNet (Chat)</div>
+              <div class="project-tech">PHP · CodeIgniter · MySQL</div>
+            </div>
+            <p class="project-desc">Minimal chat app with PHP + MySQL. Fast, hungry, low-carb.</p>
+            <div class="project-footer">
+              <span class="open-repo">Open Repo</span>
+              <span class="stars">stars: —</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/hardzal/eosav-proto" target="_blank" rel="noreferrer" class="project-card">
+            <div class="project-header">
+              <div class="project-title">Project: Eosav-like (Antivirus Lab)</div>
+              <div class="project-tech">Vue · Electron</div>
+            </div>
+            <p class="project-desc">Prototype virus scanner UI. Not responsible for malware feelings.</p>
+            <div class="project-footer">
+              <span class="open-repo">Open Repo</span>
+              <span class="stars">stars: —</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/hardzal/data-sample" target="_blank" rel="noreferrer" class="project-card">
+            <div class="project-header">
+              <div class="project-title">Project: Data-Sample (WIP)</div>
+              <div class="project-tech">Python · Pandas</div>
+            </div>
+            <p class="project-desc">Learning pipelines and pretending to understand data engineering.</p>
+            <div class="project-footer">
+              <span class="open-repo">Open Repo</span>
+              <span class="stars">stars: —</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- About & Contact Section -->
+      <section class="about-contact-section">
+        <div class="about-box">
+          <h3>About the Shaman</h3>
+          <p>
+            This is Izalkuntul. He codes like he breathes — messy, vital, and slightly dramatic. Loves automating the boring parts and making the computer suffer elegantly. He collects projects the same way some people collect stamps: with silent devotion.
+          </p>
+          <ul class="about-list">
+            <li>• Backend whisperer: Go, PHP, Node</li>
+            <li>• Deploys with faith and Docker</li>
+            <li>• Tests: writes unit tests, then curses at them</li>
+          </ul>
+        </div>
+
+        <div class="contact-box" id="contact">
+          <h3>Contact & Summon</h3>
+          <p>
+            Want to collab, roast code, or buy him coffee? Slide into the DMs or use the old‑fashioned email.
+          </p>
+
+          <div class="contact-cards">
+            <div class="contact-card">
+              <div class="contact-label">GitHub</div>
+              <a href="https://github.com/hardzal" class="contact-value">https://github.com/hardzal</a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-label">Website</div>
+              <a href="https://hardzal.github.io" class="contact-value">https://hardzal.github.io</a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-label">Email</div>
+              <span class="contact-value">izal@example.com</span>
+            </div>
+          </div>
+
+          <div class="contact-buttons">
+            <a href="https://github.com/hardzal" target="_blank" rel="noreferrer" class="btn btn-summon">Summon Repo</a>
+            <a href="https://hardzal.github.io" target="_blank" rel="noreferrer" class="btn btn-outline">Visit Site</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-content">
+          <div class="footer-icon">⚡</div>
+          <span>Made with insomnia and reckless curiosity — Izalkuntul © 2025</span>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      // Simple scroll animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.project-card, .about-box, .contact-box').forEach(el => {
+        el.classList.add('animate-on-scroll');
+        observer.observe(el);
+      });
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+    </script>
   </body>
 </html>
